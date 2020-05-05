@@ -1,0 +1,130 @@
+* {
+    /* font-family:'Merriweather' !important; */
+    margin: 0;
+    font-family: 'Fira Sans';
+
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url(fonts/Merriweather/Merriweather-Light.ttf);
+
+    
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url(fonts/FiraSans-Thin.ttf);
+
+}
+
+#navbar {
+    background-image: linear-gradient(to right top, #110d0f, #0b180c, #211925, #240d0d, #041d1d);
+    background-color: rgb(10, 9, 1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#name h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 5px rgb(222, 238, 208);
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 70px;
+    font-weight: bold;
+    font-family:'Merriweather' !important;
+    transition: transform .5s;
+
+
+}
+
+#name h1:hover{
+    transform: scale(1.2);
+    color: rgb(61, 57, 65);
+}
+
+#logo img {
+    height: 65px;
+    justify-content: center;
+    transition: transform .25s;
+}
+
+#logo img:hover {
+    transform: scale(1.2);
+}
+
+#links ul {
+    display: flex;
+    list-style: none;
+}
+
+#links li img {
+    width: 30px !important; 
+    height: 30px !important;
+
+    margin: 10px;
+    transition: transform .25s;
+    /* padding: 10px; */
+}
+
+
+#links li img:hover {
+    transform: scale(1.6);
+   
+}
+
+
+/* assigmnent */
+
+
+
+#allassignment h1{
+    font-size: 25px;
+    
+    /* padding-top: 30px; */
+    background-color: rgba(49, 25, 85, 0.979);
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    transition: transform .25s;
+    font-weight: bolder;
+
+
+}
+
+#allassignment h1:hover{
+    background-color: rgb(240, 240, 240);
+    color: rgb(10, 2, 2) !important;
+    transform: scale(1.02);
+}
+
+
+
+/* cards carding */
+
+#contentcards{
+    /* background-color: rgb(78, 30, 30); */
+    height: 100%;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    margin: 100px 50px 20px 50px;
+    height: 100%;
+    font-family: 'Fira Sans';
+}
+
+.hovercard{
+    transition: transform .3s;
+}
+
+.hovercard:hover{
+    transform: scale(1.05);
+    background-color: rgb(20, 24, 20) !important;   
+    color: rgb(255, 255, 255) !important;
+    /* font-family: cursive; */
+
+}
